@@ -6,6 +6,7 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length == 3
     array[-1] = "and #{array.last}"
+    array
     # array.insert(-2, "and")
     # array = array[0..-1].join(" ")
     # # first element to second to last element
