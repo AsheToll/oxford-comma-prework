@@ -5,9 +5,7 @@ def oxford_comma(array)
   elsif array.length == 2
     array.join(" and ")
   elsif array.length == 3
-    array.collect do |array|
-      array.last = "and #{array.last}"
-    end
+    array.last = "and #{array.last}"
     # array.insert(-2, "and")
     # array = array[0..-1].join(" ")
     # # first element to second to last element
