@@ -4,14 +4,12 @@ def oxford_comma(array)
     array.join()
   elsif array.length == 2
     array.join(" and ")
-  elsif array.length == 3
+  else array.length >= 3
     array[-1] = "and #{array.last}"
     array.join(", ")
     # array.insert(-2, "and")
     # array = array[0..-1].join(" ")
     # # first element to second to last element
     # binding.pry
-  else
-    puts "placeholder"
   end
 end
