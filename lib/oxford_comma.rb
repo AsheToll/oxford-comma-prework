@@ -10,7 +10,7 @@ def oxford_comma(array)
     # array.insert(-2, "and")
     # array = array[0..-1].join(" ")
     # # first element to second to last element
-    binding.pry
+    # binding.pry
   else
     puts "placeholder"
   end
